@@ -17,9 +17,8 @@
 ;;;; under the License.
 ;;;;
 
-(defpackage :cl-batteries/lexer
-  (:use :cl :cl-batteries/re)
-  (:nicknames :lex)
+(defpackage :boost-lexer
+  (:use :cl :boost-re)
   (:export
    #:define-lexer
 
@@ -52,7 +51,7 @@
    #:token-class
    #:token-value))
 
-(in-package :cl-batteries/lexer)
+(in-package :boost-lexer)
 
 ;;; ----------------------------------------------------
 
